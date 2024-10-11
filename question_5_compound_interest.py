@@ -21,7 +21,7 @@ def get_inputs():
     
 def main():
     p, r, t, n = get_inputs()
-    matured_value = cal_mature_value(p, r, t, n)
+    matured_value = cal_matured_value(p, r, t, n)
     print(f"Matured value is { matured_value :.2f}") 
 
 # Don't change the code below!
